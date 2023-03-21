@@ -15,20 +15,24 @@ body {
 
 #content-left {
     background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    width: fit-content;
 }
 
 #logo {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #logoimg {
- height: 150px;
+ height: 11rem;
 }
 
 h1 {
     font-family: 'Norse-bold';
     color: white;
-    font-size: 100px;
+    font-size: 7rem;
 }
 
 #leftfooter {
