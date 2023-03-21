@@ -1,1 +1,40 @@
 /* Sign-up Form CSS */
+
+@font-face {
+    font-family: 'Norse-bold';
+    src: url(Norse-Bold.otf);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    display: flex;
+}
+
+#content-left {
+    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+}
+
+#logo {
+    display: flex;
+}
+
+#logoimg {
+ height: 150px;
+}
+
+h1 {
+    font-family: 'Norse-bold';
+    color: white;
+    font-size: 100px;
+}
+
+#leftfooter {
+    color: white;
+}
+
+a, a:hover, a:focus, a:active {
+    color: inherit;
+}
