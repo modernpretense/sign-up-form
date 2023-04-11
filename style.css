@@ -11,24 +11,28 @@ body {
     padding: 0;
 }
 
-#container {
+#content {
     display: flex;
 }
 
 #content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
-    width: fit-content;
 }
 
 #logo {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
 }
 
 #logoimg {
- height: 11rem;
+    height: 11rem;
 }
 
 h1 {
@@ -43,4 +47,14 @@ h1 {
 
 a, a:hover, a:focus, a:active {
     color: inherit;
+}
+
+#content-right {
+    background-color: #f9fafb;
+    padding: 2rem;
+}
+
+.bread {
+    font-weight: bold;
+    font-size: 1.3rem;
 }
